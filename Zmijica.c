@@ -5,7 +5,7 @@
 
 int Sirina;
 int Visina;
-SegmentZmije Zmija[100];
+SegmentZmije Zmija[1000];
 int DuzinaZmije = 3;
 char izgubio = 'f';
 Poen poen;
