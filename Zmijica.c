@@ -227,6 +227,9 @@ void UltraAwesomeEndGameCinematic(char Polje[Visina][Sirina])
 	system("cls");
 	printf("\n\n");
 	printf("\t Igra je gotova, osvojili ste ukupno: %d poena\n",Score);
+	char c;
+	while ((c = getchar()) != '\n' && c != EOF) { }
+	fgetc(stdin);
 
 	
 }
